@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return; // Ne pas ajouter la modale si l'utilisateur n'est pas connecté
   }
 
-  console.log("777777777777777777 Utilisateur connecté, ajout de la modale.");
+  console.log("Utilisateur connecté, ajout de la modale.");
 
   const modalHTML = `
   <div id="modal" class="modal">
